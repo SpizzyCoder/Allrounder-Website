@@ -1,0 +1,57 @@
+:root{
+    --main-color: #4C4C47;
+    --main-color-dark: #2D2D2A;
+    --accent-color: #FD7121;
+}
+body {
+    display: block;
+    margin: 0px;
+    background-color: var(--main-color);
+    color: white;
+}
+a{
+    color:var(--accent-color);
+    text-decoration: none;
+}
+
+header>*, main{
+    padding: 0 200px;
+}
+header{
+    min-height: 200px;
+    width: 100%;
+    background-color: var(--main-color-dark);
+}
+
+.selector{
+    display:flex;
+    flex-wrap: false;
+}
+.selector>div{
+    width: 33%;
+    padding: 0 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.selector>div>*{
+        display: block; 
+        margin: 20px auto;
+        width: 100%;
+        text-align: center;
+}
+
+.selector>div:hover{
+    margin-top: 15px;
+}
+
+.button{
+    width: 50% !important;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+
+
+
