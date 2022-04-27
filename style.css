@@ -57,8 +57,9 @@ h1{
     background-color: var(--main-color-dark);
     box-shadow: 2px 2px 4px #040404;
     padding: 40px;
+    transition-duration: 250ms;
 }
-/* .selector>div:not(:first-child){
+/* .selector>div:not(:first-child){ //wtf is this
     margin-left:40px;
 
 } */
@@ -71,9 +72,7 @@ h1{
 }
 
 .selector>div:hover{
-    margin-top: -5px;
-    margin-bottom: 5px;
-
+    transform: translateY(-10px);
 }
 
 .selector img{
