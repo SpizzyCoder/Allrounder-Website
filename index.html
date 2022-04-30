@@ -1,52 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Allrounder</title>
 </head>
-<body>
-    <header>
-        <a href="#"><img src="imgs/allrounder.png" class="logo" /><h1>Allrounder</h1></a>
-    </header>
-    <main>
-        <div class="selector">
-            <div>
-                <a href="https://discord.allrounder.ml">
-                    <img src="imgs/discord.png"/>
-                </a>
-                <h2>Allrounder Discord</h2>
-                <p>
-                    Du bist neu hier? Dann join doch mal dem Discord Server und stelle dich doch mal vor. Zocke mit vielen anderen jede Art von Games. <br>
-                    Alle sind willkommen!
-                </p>
-                <a  href="https://discord.allrounder.ml" class="button">Open Discord</a>
-            </div>
-            <div>
-                <a href="https://instagram.allrounder.ml">
-                    <img src="imgs/instagram.png" />
-                </a>
-                <h2>Allrounder Instagram</h2>
-                <p>Check unsere Instagram Page aus. Siehe die letzen Clips der AR Member und viel mehr.</p>
-                <a href="https://instagram.allrounder.ml" class="button">Open Instagram</a>
-            </div>
-            <div>
-                <a>
-                    <img src="imgs/minecraft.png"/>
-                </a>
-                <h2>AllCraft</h2>
-                <p>AllCraft geht in die nächste Runde! <br>
-                    Alle aus dem Discord Server sind eingeladen. Melde dich heute noch über dem Discord Server an, und füge dich der Whitelist hinzu.
-                </p>
-                <a type="button" id="IP" class="button" onclick="CopyIP()"></a>
 
-            </div>
+<body class="bg-dark">
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="imgs/allrounder.png" alt="Allrounder logo" width="50"
+          class="rounded-3 d-inline-block align-text-top me-3">
+        Allrounder
+      </a>
+    </div>
+  </nav>
 
+  <main>
+    <div class="text-secondary text-center mt-3">
+      <div class="py-1">
+        <img class="rounded-3" src="imgs/allrounder.png" height="100" alt="Allrounder logo">
+        <h1 class="display-5 my-3 fw-bold text-white">Allrounder</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">
+            Du hast bock neue Leute zum zocken zu finden?
+            Riesige server sind dir zu chaotisch?
+            Dann besuche doch mal den Allrounder Clan.
+            Alle sind willkommen!
+          </p>
         </div>
-    </main>
+      </div>
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-evenly py-5">
+      <div class="card bg-secondary bg-opacity-25 text-white mx-1 my-1" style="width: 30rem;">
+        <img src="imgs/discord.png" class="card-img-top" alt="Discord">
+        <div class="card-body d-flex flex-column py-5">
+          <h3 class="card-title">Allrounder Discord</h3>
+          <p class="card-text mb-4">
+            Du bist neu hier?
+            Dann join doch mal dem Discord Server und stelle dich doch mal vor.
+            Zocke mit vielen anderen jede Art von Games. Alle sind willkommen!
+          </p>
+          <a href="https://discord.allrounder.ml" class="text-white fw-bold btn mt-auto mb-2 btn-light">Discord</a>
+        </div>
+      </div>
+
+      <div class="card bg-secondary bg-opacity-25 text-white mx-1 my-1" style="width: 30rem;">
+        <img src="imgs/instagram.png" class="card-img-top" alt="Instagram">
+        <div class="card-body d-flex flex-column py-5">
+          <h3 class="card-title">Allrounder Instagram</h3>
+          <p class="card-text">
+            Check unsere Instagram Page aus.
+            Siehe die letzen Clips der AR Member und viel mehr.
+          </p>
+          <a href="https://instagram.allrounder.ml" class="text-white fw-bold btn mt-auto mb-2 btn-light">Instagram</a>
+        </div>
+      </div>
+
+      <div class="card bg-secondary bg-opacity-25 text-white mx-1 my-1" style="width: 30rem;">
+        <img src="imgs/minecraft.png" class="card-img-top" alt="Minecraft">
+        <div class="card-body d-flex flex-column py-5">
+          <h3 class="card-title">AllCraft</h3>
+          <p class="card-text">
+            AllCraft geht in die nächste Runde! Alle aus dem Discord Server sind eingeladen.
+            Melde dich heute noch über dem Discord Server an, und füge dich der Whitelist hinzu.
+          </p>
+          <a id="IP" onclick="CopyIP()" class="text-white fw-bold btn mt-auto mb-2 btn-light"></a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer
+    class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top border-secondary">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="text-muted">© 2022 ValeCrafter</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end d-flex">
+      <a class="mx-1" href="https://github.com/ValeCrafter/Allrounder-Website"><img src="imgs/github.svg" width="25"
+          alt="Github"></a>
+    </ul>
+  </footer>
+
 </body>
+
 </html>
