@@ -1,4 +1,4 @@
-# <img style="height: 24px; " src="/imgs/allrounder.png"> Allrounder Clan Website 
+# <img style="height: 24px; " src="imgs/allrounder.png"> Allrounder Clan Website 
 
 This Repo is a Website for the Allrounder Clan, also known as the AR Clan.
 
@@ -13,7 +13,7 @@ First it started as a Rainbow Six Siege Clan, but to do the name of the clan jus
 The Clan welcomes everybody to join, have fun and make friends.
 
 ## To Do
-- Footer
+- ~~Footer~~
 - Notification when IP is copied
 - EN and DE language support with JSON file as Data
 
