@@ -6,6 +6,10 @@
   margin-right: auto;
 }
 
+.btn:hover { 
+  background-color: #cb6307 !important;
+}
+
 main {
   padding-left: 10% !important;
   padding-right: 10% !important;
