@@ -34,3 +34,13 @@ main {
 #IP {
   min-width: 200px;
 }
+/*
+
+The arrow is not displayed correctly on mobile platforms.
+
+.popover .popover-arrow::before, .popover .popover-arrow::after {
+  border-color: #212529 !important;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+}
+*/
