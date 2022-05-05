@@ -1,12 +1,16 @@
 var IP = "play.allrounder.ml";
 
-function CopyIP(){
-  /* Get the text field */
-  navigator.clipboard.writeText(IP);
-}
+$(document).ready(function () {
+  $('#IP').html("IP:  " + IP);
 
-document.addEventListener("DOMContentLoaded", function() {
-  var ipElement = document.getElementById("IP");
-  console.log(ipElement);
-  ipElement.innerHTML = "IP:  " + IP;
+  $("#IP").click(function () {
+    navigator.clipboard.writeText(IP);
+    $(this).popover({
+      template: '<div class="popover bg-dark" role="tooltip"><div class="popover-arrow"></div><h3 class="popover-header"></h3><div class="popover-body text-white fs-6"></div></div>'
+    });
+    $(this).popover("show");
+    setTimeout(function () {
+      $('#IP').popover("hide");
+    }, 2000);
+  })
 });
