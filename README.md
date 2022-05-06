@@ -14,7 +14,7 @@ The Clan welcomes everybody to join, have fun and make friends.
 
 ## To Do
 - ~~Footer~~
-- Notification when IP is copied
+- ~~Notification when IP is copied~~
 - EN and DE language support with JSON file as Data
 
 If you want to help just pick something from the To-Do and write a pull request. 
