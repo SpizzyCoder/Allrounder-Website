@@ -13,4 +13,24 @@ $(document).ready(function () {
       $('#IP').popover("hide");
     }, 2000);
   })
+
+  // Languages
+  $('#heroText').html(lang.german.hero);
+  $('#discordText').html(lang.german.discord_card);
+  $('#instagramText').html(lang.german.instagram_card);
+  $('#allcraftText').html(lang.german.allcraft);
+
+  $('#langGerman').click(function () {
+    $('#heroText').html(lang.german.hero);
+    $('#discordText').html(lang.german.discord_card);
+    $('#instagramText').html(lang.german.instagram_card);
+    $('#allcraftText').html(lang.german.allcraft);
+  })
+
+  $('#langEnglish').click(function () {
+    $('#heroText').html(lang.english.hero);
+    $('#discordText').html(lang.english.discord_card);
+    $('#instagramText').html(lang.english.instagram_card);
+    $('#allcraftText').html(lang.english.allcraft);
+  })
 });

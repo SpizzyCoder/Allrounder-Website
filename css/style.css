@@ -31,8 +31,16 @@ main {
   padding-right: 8% !important;
 }
 
+.dropdown-item:hover {
+  background-color: transparent !important;
+}
+
 #IP {
   min-width: 200px;
+}
+
+#dropdownLanguages {
+  width: 150px !important;
 }
 /*
 
