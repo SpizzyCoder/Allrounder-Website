@@ -13,6 +13,10 @@
 main {
   padding-left: 10% !important;
   padding-right: 10% !important;
+  height: 100%;
+}
+#dynmap main{
+  min-height: calc(100% - 80px - 60px - 30px);
 }
 
 .card {
@@ -41,6 +45,19 @@ main {
 
 #dropdownLanguages {
   width: 150px !important;
+}
+
+body, html{
+  height: 100%;
+}
+.map{
+  height: 95%;
+}
+
+.fullscreenButton{
+  margin-left: calc(100% - 150px); 
+  margin-right: 0;
+  width: 250px;
 }
 /*
 
