@@ -15,9 +15,6 @@ main {
   padding-right: 10% !important;
   height: 100%;
 }
-#dynmap main{
-  min-height: calc(100% - 80px - 60px - 30px);
-}
 
 .card {
   background-color: #414549 !important;
@@ -47,18 +44,6 @@ main {
   width: 150px !important;
 }
 
-body, html{
-  height: 100%;
-}
-.map{
-  height: 95%;
-}
-
-.fullscreenButton{
-  margin-left: calc(100% - 150px); 
-  margin-right: 0;
-  width: 250px;
-}
 /*
 
 The arrow is not displayed correctly on mobile platforms.
