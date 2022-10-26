@@ -1,6 +1,6 @@
 var lang = {
   "german": {
-    "hero": "Du hast bock neue Leute zum zocken zu finden? Riesige server sind dir zu chaotisch? Dann besuche doch mal den Allrounder Clan. Alle sind willkommen!",
+    "hero": "Du hast bock neue Leute zum Zocken zu finden? Riesige Server sind dir zu chaotisch? Dann besuche doch mal den Allrounder Clan. Alle sind willkommen!",
     "discord_card": "Du bist neu hier? Dann join doch mal dem Discord Server und stelle dich doch mal vor. Zocke mit vielen anderen jede Art von Games. Alle sind willkommen!",
     "instagram_card": "Check unsere Instagram Page aus. Siehe die letzen Clips der AR Member und viel mehr.",
     "allcraft": "AllCraft geht in die nächste Runde! Alle aus dem Discord Server sind eingeladen. Melde dich heute noch über dem Discord Server an, und füge dich der Whitelist hinzu."
