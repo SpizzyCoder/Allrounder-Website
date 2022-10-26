@@ -1,4 +1,4 @@
-# <img style="height: 24px; " src="imgs/allrounder.png"> Allrounder Clan Website 
+# <img style="height: 24px; " src="imgs/allrounder.svg"> Allrounder Clan Website 
 
 This Repo is a Website for the Allrounder Clan, also known as the AR Clan.
 
