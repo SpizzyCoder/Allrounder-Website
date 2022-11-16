@@ -1,4 +1,4 @@
-var IP = "play.allrounder.ml";
+var IP = "play.allrounderclan.com";
 
 $(document).ready(function () {
   $('#IP').html("IP:  " + IP);
